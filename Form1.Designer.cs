@@ -38,10 +38,7 @@ namespace FechaSiguiente
             this.BtnFecha = new System.Windows.Forms.Button();
             this.TextoIngreso = new System.Windows.Forms.Label();
             this.ResultadoFechaSig = new System.Windows.Forms.Label();
-<<<<<<< HEAD
             this.RepetirProceso = new System.Windows.Forms.Button();
-=======
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             this.SuspendLayout();
             // 
             // inputDia
@@ -94,11 +91,7 @@ namespace FechaSiguiente
             // 
             // BtnFecha
             // 
-<<<<<<< HEAD
             this.BtnFecha.Location = new System.Drawing.Point(196, 224);
-=======
-            this.BtnFecha.Location = new System.Drawing.Point(265, 211);
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             this.BtnFecha.Name = "BtnFecha";
             this.BtnFecha.Size = new System.Drawing.Size(167, 49);
             this.BtnFecha.TabIndex = 8;
@@ -109,11 +102,7 @@ namespace FechaSiguiente
             // TextoIngreso
             // 
             this.TextoIngreso.AutoSize = true;
-<<<<<<< HEAD
             this.TextoIngreso.Location = new System.Drawing.Point(225, 289);
-=======
-            this.TextoIngreso.Location = new System.Drawing.Point(225, 276);
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             this.TextoIngreso.Name = "TextoIngreso";
             this.TextoIngreso.Size = new System.Drawing.Size(253, 17);
             this.TextoIngreso.TabIndex = 9;
@@ -122,16 +111,11 @@ namespace FechaSiguiente
             // ResultadoFechaSig
             // 
             this.ResultadoFechaSig.AutoSize = true;
-<<<<<<< HEAD
             this.ResultadoFechaSig.Location = new System.Drawing.Point(285, 315);
-=======
-            this.ResultadoFechaSig.Location = new System.Drawing.Point(285, 306);
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             this.ResultadoFechaSig.Name = "ResultadoFechaSig";
             this.ResultadoFechaSig.Size = new System.Drawing.Size(0, 17);
             this.ResultadoFechaSig.TabIndex = 10;
             // 
-<<<<<<< HEAD
             // RepetirProceso
             // 
             this.RepetirProceso.Location = new System.Drawing.Point(376, 224);
@@ -142,17 +126,12 @@ namespace FechaSiguiente
             this.RepetirProceso.UseVisualStyleBackColor = true;
             this.RepetirProceso.Click += new System.EventHandler(this.IntentarDeNuevo);
             // 
-=======
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-<<<<<<< HEAD
             this.Controls.Add(this.RepetirProceso);
-=======
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             this.Controls.Add(this.ResultadoFechaSig);
             this.Controls.Add(this.TextoIngreso);
             this.Controls.Add(this.BtnFecha);
@@ -180,10 +159,7 @@ namespace FechaSiguiente
         private System.Windows.Forms.Button BtnFecha;
         private System.Windows.Forms.Label TextoIngreso;
         private System.Windows.Forms.Label ResultadoFechaSig;
-<<<<<<< HEAD
         private System.Windows.Forms.Button RepetirProceso;
-=======
->>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
     }
 }
 
