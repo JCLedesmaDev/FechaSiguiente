@@ -79,12 +79,15 @@ namespace FechaSiguiente
                 return;
             }
 
+<<<<<<< HEAD
             if(numeroDelMes > 12)
             {
                 MessageError("El año tiene solo 12 meses. \nIntentelo nuevamente :D");
                 return;
             }
 
+=======
+>>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
             string nuevaFecha = "";
             string nombreDelMes = ObtenerNombreDelMes(numeroDelMes);
             int cantidadDeDiasDelMes = ObtenerDiasDelMes(nombreDelMes);
@@ -266,6 +269,7 @@ namespace FechaSiguiente
             }
             return bisiesto;
         }
+<<<<<<< HEAD
 
 
         private void IntentarDeNuevo(object sender, EventArgs e)
@@ -277,5 +281,7 @@ namespace FechaSiguiente
             ResultadoFechaSig.Text = "";
         }
 
+=======
+>>>>>>> f99290a99b5f9956ef8123c6275386753fb7e966
     }
 }
